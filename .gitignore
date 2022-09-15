@@ -1,0 +1,5 @@
+# Byte-compiled / optimized / DLL files
+lib
+lib64
+bin
+share

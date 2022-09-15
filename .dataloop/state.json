@@ -1,0 +1,40 @@
+{
+  "package": {
+    "id": "63238ec7f469fb5161fa50e9",
+    "url": "https://gate.dataloop.ai/api/v1/packages/63238ec7f469fb5161fa50e9",
+    "version": "1.0.3",
+    "name": "copy-new-item-2-target",
+    "creator": "opey.muritala@gmail.com",
+    "type": "faas",
+    "modules": [
+      {
+        "name": "default_module",
+        "entryPoint": "main.py",
+        "className": "ServiceRunner",
+        "initInputs": [],
+        "functions": [
+          {
+            "name": "copyNewItem",
+            "description": null,
+            "input": [
+              {
+                "name": "item",
+                "type": "Item"
+              }
+            ],
+            "output": [],
+            "displayIcon": ""
+          }
+        ]
+      }
+    ],
+    "projectId": "2e6fac0e-1d0d-4524-9fcc-3b4f70b1569f",
+    "createdAt": "2022-09-15T20:44:55.200Z",
+    "updatedAt": "2022-09-15T21:01:24.654Z",
+    "global": false,
+    "codebase": {
+      "type": "item",
+      "itemId": "632392a324ff08637d8ad1d3"
+    }
+  }
+}
